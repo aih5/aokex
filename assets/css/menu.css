@@ -5,8 +5,8 @@
   z-index: 999;
 }
 .menu-bg-overlay {
-  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #FF3300 0%, #FF9900 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to right, #FF3300 0%, #FF9900 100%) repeat scroll 0 0;
   transition: .3s all ease-in-out;
 }
 .navbar-default .navbar-brand {
@@ -177,8 +177,8 @@ a.navbar-brand {
     float: none;
     color: #737d8b;
     border-top: 1px solid #ACAEB2;
-    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
-    background: rgba(0, 0, 0, 0) linear-gradient(to right, #ee0979 0%, #ff6a00 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #FF3300 0%, #FF9900 100%) repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) linear-gradient(to right, #FF3300 0%, #FF9900 100%) repeat scroll 0 0;
   }
   #main-nav li:first-child {
     border: none;
