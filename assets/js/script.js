@@ -154,11 +154,15 @@ Author:         Suelo
 			/* - End of showcase slide
 			================================================*/
 
-
+			// 判断pc
+			isPc: function() {
+				return navigator.userAgent.indexOf('Windows') > -1;
+			},
 			// 返回顶部
 			gotop: function() {
+				var self = this;
 				jQuery(window).on('scroll', function () {
-					if (jQuery(window).scrollTop() > 400) {
+					if (jQuery(window).scrollTop() > 400 && self.isPc()) {
 						jQuery('.gotop').show()
 					} else {
 						jQuery('.gotop').hide()
