@@ -42,10 +42,10 @@ Author:        HTMLmate
 	.features-text-icon {
 		margin-top: 25px;
 	}
-	.about-section-text {
+	/* .about-section-text {
 		margin-bottom: 30px;
 		margin-top: 50px;
-	}
+	} */
 	.extra-pic {
 		display: none;
 	}
@@ -148,9 +148,9 @@ Author:        HTMLmate
 }
 
 @media screen and (max-width: 580px) { 
-	.main-menu {
+	/* .main-menu {
 		padding: 10px 0 0 0;
-	}
+	} */
 	.main-menu-container.tbg.navbar-fixed-top {
 		padding-top: 0px; 
 	}
