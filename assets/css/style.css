@@ -126,11 +126,11 @@ h1,h2,h3,h4,h5,h6 {
 	padding: 50px 0px;
 }
 .orange-gred {
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
@@ -258,8 +258,8 @@ Start of features section
 .features-icon:after,
 .extra-features-section .extra-left .features-icon:after,
 .extra-features-section .extra-right .features-icon:after  {
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
-	background: rgba(0, 0, 0, 0) linear-gradient(to right, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
 
 }
 .features-text-dec {
@@ -369,8 +369,8 @@ Start of how to install
 	background-size: cover;
 	background-position: center center;
 	background-repeat: no-repeat;
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
-	background: rgba(0, 0, 0, 0) linear-gradient(to right, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
 }
 .how-to-install .section-content {
 	padding-bottom: 150px;
@@ -407,11 +407,11 @@ Start of how to install
 	display: block;
 	width: 80px;
 	height: 80px;
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 	border-radius: 50%;
 	-webkit-animation: video-icon 1500ms ease-out infinite;
 	animation: video-icon 1500ms ease-out infinite;
@@ -432,11 +432,11 @@ Start of showcase section
 .showcase-slider .owl-dot {
 	height: 12px;
 	width: 12px;
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 	border-radius: 100%;
 	display: inline-block;
 	margin-right: 10px;
@@ -474,7 +474,7 @@ Start of showcase section
 }
 .showcase-slider .owl-prev,
 .showcase-slider .owl-next span {
-	color: #FF6600;
+	color: #CC3300;
 }
 .showcase-slider .owl-prev {
 	left: -40px;
@@ -484,11 +484,11 @@ Start of showcase section
 }
 .showcase-slider .owl-prev:hover,
 .showcase-slider .owl-next:hover {
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 }
 .showcase-slider .owl-prev:hover span,
 .showcase-slider .owl-next:hover span {
@@ -602,11 +602,11 @@ Start of pricing plan
 	z-index: -1;
 	opacity: 0;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 	filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#00c9fd', endColorstr='#81ee8e', GradientType=1);
 	-webkit-transition: 0.3s;
 	transition: 0.3s;
@@ -704,11 +704,11 @@ Start of contact section
 }
 .submit-btn button {
 	border: none;
-	background: -moz-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -webkit-gradient(left top, right top, color-stop(0%, #FF6600), color-stop(100%, #FF9900));
-	background: -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -o-linear-gradient(left, #FF6600 0%, #FF9900 100%);
-	background: -ms-linear-gradient(left, #FF6600 0%, #FF9900 100%);
+	background: -moz-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -webkit-gradient(left top, right top, color-stop(0%, #CC3300), color-stop(100%, #FF9900));
+	background: -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -o-linear-gradient(left, #CC3300 0%, #FF9900 100%);
+	background: -ms-linear-gradient(left, #CC3300 0%, #FF9900 100%);
 	color: #fff;
 }
 .block-green {
@@ -716,7 +716,7 @@ Start of contact section
     color: #fff;
 }
 .block-blue {
-    background: #3366CC;
+    background: #336699;
     color: #fff;
 }
 .p-contact .main {
@@ -896,8 +896,8 @@ Start of home-2 banner
 	padding-bottom: 290px;
 	overflow: visible;
 	padding-top: 250px;
-	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
-	background: rgba(0, 0, 0, 0) linear-gradient(to right, #FF6600 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
+	background: rgba(0, 0, 0, 0) linear-gradient(to right, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
 }
 .banner-area-head h1 {
 	font-size: 52px;
