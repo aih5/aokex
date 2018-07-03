@@ -154,7 +154,8 @@ Author:        HTMLmate
 	.main-menu-container.tbg.navbar-fixed-top {
 		padding-top: 0px; 
 	}
-	.title-install h2 {
+	.title-install h2,
+	.download-area-title {
 		font-size: 36px;
 	}
 	.our-team-section .section-title {

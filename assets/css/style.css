@@ -50,7 +50,7 @@ body {
 	letter-spacing: .5px;
 	background-color: #fff;
 	color: #757575;
-	font-family: 'Merriweather Sans', sans-serif;
+	font-family: 'Microsoft YaHei', 'Merriweather Sans', sans-serif;
 	-webkit-font-smoothing: antialiased;
 	
 }
@@ -119,7 +119,7 @@ select:visited {
 h1,h2,h3,h4,h5,h6 {
 	margin: 0;
 	font-weight: normal;
-	font-family: 'Raleway', sans-serif; 
+	font-family: 'Microsoft YaHei', 'Raleway', sans-serif; 
 }
 
 .section-content {
@@ -219,7 +219,7 @@ Padding settings
 Start of features section
 -------------------------------------------------------------------------*/
 .features-icon i {
-	font-size: 52px;
+	font-size: 60px;
 	transition: .3s all ease-in-out;
 	position: relative;
 	z-index: 1;
@@ -315,7 +315,7 @@ Start of about section
 
 
 .about-section-text {
-	padding-top: 60px;
+	padding-top: 30px;
 }
 .download-store li {
 	margin-right: 20px;
@@ -373,7 +373,7 @@ Start of how to install
 	background: rgba(0, 0, 0, 0) linear-gradient(to right, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
 }
 .how-to-install .section-content {
-	padding-bottom: 150px;
+	padding-bottom: 65px;
 }
 .title-install h2 {
 	font-size: 52px;
@@ -651,13 +651,22 @@ Start of download area section
 	color: #fff;
 	font-weight: 600;
 }
+.download-area-title{
+	font-size: 52px;
+	color: #fff;
+	text-align: center;
+	padding-top: 50px;
+}
 .download-area-text span {
 	color: #fff;
 	font-size: 26px;
 }
 .download-area-text {
-	max-width: 500px;
+	max-width: 340px;
 	margin: 0 auto;
+}
+.download-area-text:hover{
+	text-decoration: underline;
 }
 .download-now h3 {
 	font-size: 52px;
@@ -893,7 +902,7 @@ Start of home-2 banner
 	background-position: center center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	padding-bottom: 290px;
+	padding-bottom: 170px;
 	overflow: visible;
 	padding-top: 250px;
 	background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #CC3300 0%, #FF9900 100%) repeat scroll 0 0;
