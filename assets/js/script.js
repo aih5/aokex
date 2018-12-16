@@ -24,8 +24,18 @@ Author:         Suelo
 				this.videoPopup();
 				this.showcaseSlide();
 				this.gotop();
-
-			},
+                this.showModal();
+            },
+            // 显示模态框
+            showModal: function () {
+                if (config.openAd) {
+                    jQuery('#modal').modal('show');
+                    jQuery('#jizan').click(function() {
+                        window.open(config.url);
+                        jQuery('#modal').modal('hide');
+                    })
+                }
+            },
 			/* Start Of Preloader
 			================================================*/
 			preloader: function () {
@@ -160,18 +170,31 @@ Author:         Suelo
 			},
 			// 返回顶部
 			gotop: function() {
-				var self = this;
-				jQuery(window).on('scroll', function () {
-					if (jQuery(window).scrollTop() > 400 && self.isPc()) {
-						jQuery('.gotop').show()
-					} else {
-						jQuery('.gotop').hide()
-					}
-				})
-				jQuery('.gotop').on('click', function() {
-					jQuery(window).scrollTop(0);
-				})
-			}
+                var self = this;
+                if(self.isPc()) {
+                    jQuery('.qrcode').show()
+                    jQuery(window).on('scroll', function () {
+                        if (jQuery(window).scrollTop() > 400) {
+                            jQuery('.anchor').show()
+                        } else {
+                            jQuery('.anchor').hide()
+                        }
+                    })
+                    jQuery('.anchor').on('click', function() {
+                        jQuery(window).scrollTop(0);
+                    })
+                }
+                if (config.openAd) {
+                    jQuery('.zan').show().on('click', function() {
+                        jQuery('#modal').modal('show');
+                    });
+                    setInterval(function() {
+                        jQuery('#zan').removeClass().addClass('tada animated').one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
+                            jQuery(this).removeClass();
+                        });
+                    }, 5000)
+                }
+            }
 		}
 	}
 	$(document).ready(function () {

@@ -85,7 +85,7 @@ Author:        HTMLmate
 @media screen and (max-width: 767px) { 
 	.container {
 		padding: 0px 30px;
-	}
+    }
 	.navbar-default .navbar-toggle {
 		margin-right: 0;
 	}
@@ -268,7 +268,6 @@ Author:        HTMLmate
 	}
 }
 @media screen and (max-width: 375px) { 
-
 	.banner-slide-area .owl-controls {
 		display: none;
 	}

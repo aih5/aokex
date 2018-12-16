@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
 <meta charset="utf-8">
 <title>智能地暖软件官网首页-地热盘管设计绘图专业软件</title>
 <meta name="description" content="地热盘管设计绘图专业软件">
@@ -29,6 +30,22 @@
 </head>
 
 <body>
+
+
+<!-- 模态框开始 -->
+<div id="modal" class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+    <div class="modal-dialog modal-sm" role="document">
+        <div class="modal-content">
+            <a id="jizan" href="javascript:void(0);" target="_blank"><img src="./assets/img/zan.jpg" alt="集攒送好礼"></a>
+        </div>
+        <div class="modal-footer">
+            <img data-dismiss="modal" src="data:image/png;base64,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" alt="关闭">
+        </div>
+    </div>
+</div>
+<!-- 模态框结束 -->
+
+
 <!-- Start of Header 
 ============================================= -->
 <header>
@@ -80,7 +97,7 @@
 			<div class="banner-area-content">
 				<div class="banner-area-head">
 					<div class="banner-text-content">
-						<h1 class="pb30">智能地暖软件</h1>
+                        <h1 class="pb30">智能地暖软件</h1>
 						<div  class="banner-text pb40">
 							<span>专注于地暖行业，最好用的地暖设计软件</span>
 						</div>
@@ -493,7 +510,7 @@
 						<div class="landy-pricing text-center ul-li">
 							<div class="header-pricing">
 								<div class="pricing-price">
-									<h3 class="content-price pink pb10">￥99</h3>
+									<h3 class="content-price pink pb10">￥39</h3>
 									<span class="content-duration text-uppercase pb10">永久期限</span>
 								</div>
 								<div class="content-title mt10">
@@ -628,7 +645,17 @@
 	</div>
 </section>
 
-<div class="gotop"><span class="qrcode"></span><a class="anchor" href="javascript:void(0);"></a></div>
+<div class="gotop">
+    <a class="zan" href="javascript:void(0);">
+        <div id="zan">
+            <img src="./assets/img/zan.jpg" alt="集攒送好礼">
+        </div>
+    </a>
+    <div class="qrcode"></div>
+    <a href="javascript:void(0);">
+        <div class="anchor"></div>
+    </a>
+</div>
 <!-- <section id="contact" class="contact-section">
 	<div class="container">
 		<div class="row section-content">
@@ -774,6 +801,8 @@
 <script type="text/javascript" src="assets/js/owl.carousel.min.js"></script>
 <!-- Include jquery.magnific-popup.min.js-->
 <script type="text/javascript" src="assets/js/jquery.magnific-popup.min.js"></script>
+<!-- config -->
+<script type="text/javascript" src="assets/js/config.js"></script>
 <!-- Include script.js-->
 <script type="text/javascript" src="assets/js/script.js"></script>
 

@@ -795,15 +795,14 @@ End of contact section
 -------------------------------------------------------------------------*/
 
 .gotop {
-    display: none;
     position: fixed;
     right: 20px;
-    bottom: 120px;
+    bottom: 200px;
 	width: 64px;
 	z-index: 10;
 }
 .gotop .qrcode {
-    display: block;
+    display: none;
     height: 64px;
     border: 1px #CCC solid;
     background: #FFF url("../img/contactus/wechat.jpg") no-repeat 0 0;
@@ -812,7 +811,7 @@ End of contact section
     transition: all .6s;
 }
 .gotop .anchor {
-    display: block;
+    display: none;
     width: 64px;
     height: 64px;
     background: url("../img/gotop.png") no-repeat 50% 50%;
@@ -825,6 +824,9 @@ End of contact section
 }
 .gotop .anchor:hover {
     background-image: url("../img/gotop-hover.png");
+}
+.gotop .zan{
+    display: none;
 }
 
 
@@ -1037,4 +1039,20 @@ End of blog area section
 }
 .load-more {
 	margin-top: 50px;
+}
+
+/* 模态框 */
+.modal-dialog{
+    width: 200px;
+    margin: 100px auto
+}
+.modal-content {
+    background-color: transparent;
+}
+.modal-footer {
+    text-align: center;
+    border-top: 0;
+}
+.modal-footer img {
+    width: 50px;
 }
